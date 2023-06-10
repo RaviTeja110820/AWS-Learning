@@ -34,6 +34,12 @@ Hybrid cloud deployment combines both public and private cloud environments, all
 
 ![cloud Models](./images/cloudmodels.jpg)
 
-## Regions
+## AWS Infrastructure
 
 ![Regions](./images/regions.jpg)
+
+AWS (Amazon Web Services) operates its infrastructure in multiple geographical regions around the world. Each region is a separate geographic area that consists of multiple data centers or availability zones.
+
+**Edge locations** are primarily responsible for delivering static and dynamic content to end-users with low latency. When a user requests content that is cached in an edge location, the content is served from the nearest edge location instead of the source server, improving the overall response time.
+
+![edge](./images/edge.jpg)
